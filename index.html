@@ -1,16 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Docplanner Group</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.docplanner.com/favicon/favicon-16x16.png">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img class="logo" src="https://www.docplanner.com/img/sygnet.png" srcset="https://www.docplanner.com/img/sygnet.png 1x, https://www.docplanner.com/img/sygnet@2x.png 2x">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://www.docplanner.com/favicon/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header1">
+      <img
+        class="logo-docplanner"
+        src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1"
+        alt="Docplanner Group"
+      />
+      <ul class="menu">
+        <li><a href="#" id="abt"> About us</a></li>
+        <li><a href="https://www.docplanner.com/career" id="car">Career</a></li>
+        <li>
+          <a href="#" id="dep">Departments</a>
+          <div class="dropdown-content">
+            <ul>
+              <li>
+                <a href="/department?dep=marketing">Marketing &amp;PR</a>
+              </li>
+              <li>
+                <a href="/department?dep=customer">Customer Success &Sales</a>
+              </li>
+              <li>
+                <a href="/department?dep=it">IT, Product, Data</a>
+              </li>
+              <li>
+                <a href="/department?dep=finance"
+                  >Finance &amp;Administration</a
+                >
+              </li>
+              <li>
+                <a href="/department?dep=hr">HR &amp;more</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </header>
-    
-</body>
+    <section class="sec1">
+      <div class="centre">
+        <img class="logo" src="https://www.docplanner.com/img/sygnet.png" />
+      </div>
+      <div class="centre">
+        <h1 class="h1">Making the healthcare experience more human</h1>
+      </div>
+      <div id="di">
+        <div>
+          <p class="pa">
+            We want patients to find the perfect doctor and book an appointment
+            in the most easy way. The patient journey should be enjoyable, and
+            that's why we are always next to them: to help them find the best
+            possible care. Anytime, anywhere.
+          </p>
+        </div>
+        <div>
+          <p class="pa">
+            We also help doctors to better manage their practice and build their
+            online reputation. With our integrated end-to-end solution, doctors
+            are able not only to improve their online presence, but also to
+            devote their time to what really matters: their patients.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="sec2">
+      <div class="tab1">
+        <div>
+          <img src="https://www.docplanner.com/icons/icon-patients.svg" />
+        </div>
+        <div><h1>For patients</h1></div>
+        <div>
+          <h2>
+            Find a doctor, book a visit and solve any health-related doubt
+          </h2>
+        </div>
+        <div>
+          <select name="country" id="count">
+            <option>Choose country</option>
+            <option value="http://www.doctoraliar.com">Argentina</option>
+            <option value="http://www.doctoralia.com.br">Brazil</option>
+            <option value="http://www.doctoralia.cl">Chile</option>
+            <option value="http://www.doctoralia.co">Colombia</option>
+            <option value="http://www.znamylekar.cz">Czech</option>
+            <option value="http://www.jameda.de">Germany</option>
+            <option value="http://www.miodottore.it">Italy</option>
+            <option value="http://www.doctoralia.com.mx">Mexico</option>
+            <option value="http://www.doctoralia.pe">Peru</option>
+            <option value="http://www.znanylekarz.pl">Poland</option>
+            <option value="http://www.doctoralia.com.pt">Portugal</option>
+            <option value="http://www.doctoralia.es">Spain</option>
+            <option value="http://www.doktortakvimi.com">Turkey</option>
+          </select>
+        </div>
+      </div>
+      <div class="tab2">
+        <div>
+          <img src="https://www.docplanner.com/icons/icon-doctors.svg" />
+        </div>
+        <div><h1>For doctors</h1></div>
+        <div><h2>Save time managing visits and cut no-shows by half</h2></div>
+        <div>
+          <select name="country2" id="count2">
+            <option>Choose country</option>
+            <option value="http://www.doctoraliar.com">Argentina</option>
+            <option value="http://www.doctoralia.com.br">Brazil</option>
+            <option value="http://www.doctoralia.cl">Chile</option>
+            <option value="http://www.doctoralia.co">Colombia</option>
+            <option value="http://www.znamylekar.cz">Czech</option>
+            <option value="http://www.jameda.de">Germany</option>
+            <option value="http://www.miodottore.it">Italy</option>
+            <option value="http://www.doctoralia.com.mx">Mexico</option>
+            <option value="http://www.doctoralia.pe">Peru</option>
+            <option value="http://www.znanylekarz.pl">Poland</option>
+            <option value="http://www.doctoralia.com.pt">Portugal</option>
+            <option value="http://www.doctoralia.es">Spain</option>
+            <option value="http://www.doktortakvimi.com">Turkey</option>
+          </select>
+        </div>
+      </div>
+      <div class="tab3">
+        <div>
+          <img src="https://www.docplanner.com/icons/icon-clinics.svg" />
+        </div>
+        <div><h1>For clinics</h1></div>
+        <div>
+          <h2>Deliver an exceptional patient experience in your clinic</h2>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <section class="sec3">
+      <div><p>We are a global company with local culture</p></div>
+      <div></div>
+    </section>
+  </body>
 </html>

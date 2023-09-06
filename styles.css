@@ -1,0 +1,126 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.header1 {
+  padding: 10px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.menu {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+.menu li {
+  padding: 10px;
+}
+.logo-docplanner {
+  height: 300px;
+  width: 300px;
+}
+a {
+  text-decoration: none;
+}
+#abt {
+  color: #00b39b;
+}
+#abt,
+#car,
+#dep {
+  font-family: sans-serif;
+}
+#dep,
+#car {
+  color: gray;
+}
+#abt:active,
+#abt:hover {
+}
+#car:hover {
+  color: #00b39b;
+}
+#dep:hover {
+  color: #00b39b;
+}
+.h1 {
+  color: #00b39b;
+  font-size: 2em;
+}
+.dropdown-content:hover {
+  color: #00b39b;
+  background-color: #fff;
+  text-shadow: none;
+}
+#di {
+  display: flex;
+  justify-content: space-between;
+}
+.pa {
+  font-family: sans-serif;
+  color: gray;
+  padding: 10px;
+}
+.sec1 {
+  padding: 10px;
+}
+.centre {
+  text-align: center;
+}
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+option {
+  text-decoration: underline;
+}
+.tab1 {
+  background: #00b39b;
+  border-radius: 7px;
+}
+
+.tab1:hover {
+  opacity: 0.9;
+}
+.tab2 {
+  background: #3d83df;
+  border-radius: 7px;
+}
+
+.tab2:hover {
+  opacity: 0.9;
+}
+
+.tab3 {
+  background: #1b2734;
+  border-radius: 7px;
+}
+
+.tab3:hover {
+  opacity: 0.9;
+}
+
+.tab3,
+.tab2,
+.tab1 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+}
+
+.tab3,
+.tab2,
+.tab1 h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
